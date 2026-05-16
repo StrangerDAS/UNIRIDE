@@ -18,7 +18,7 @@ export default function UserHub() {
         className="relative z-10 text-center max-w-2xl mx-auto mb-16"
       >
         <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-4 text-white drop-shadow-xl">
-          UNIRIDE
+          URENT
         </h1>
         <p className="text-xl md:text-2xl font-medium text-brand mb-4">
           Rent bikes, scooters, and accessories easily around your city.

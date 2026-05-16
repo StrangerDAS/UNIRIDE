@@ -13,7 +13,7 @@ export default function AuthLayout() {
           <RiMotorbikeLine className="text-white text-xl" />
         </div>
         <span className="text-2xl font-bold">
-          uniride<span className="text-brand">.</span>
+          urent<span className="text-brand">.</span>
         </span>
       </Link>
       <Outlet />

@@ -176,8 +176,8 @@ export const MOCK_OWNER_BOOKINGS = [
 ]
 
 export const MOCK_TESTIMONIALS = [
-  { name: 'Priya Borah', role: 'College Student', text: 'Rented a scooty for a week during my internship. Super affordable and the owner was very helpful. Will use UNIRIDE again!', rating: 5 },
-  { name: 'Rahul Gogoi', role: 'Delivery Partner', text: 'Listed my bike on UNIRIDE and I make extra ₹8,000 every month. The process was smooth and the platform is very easy to use.', rating: 5 },
+  { name: 'Priya Borah', role: 'College Student', text: 'Rented a scooty for a week during my internship. Super affordable and the owner was very helpful. Will use URENT again!', rating: 5 },
+  { name: 'Rahul Gogoi', role: 'Delivery Partner', text: 'Listed my bike on URENT and I make extra ₹8,000 every month. The process was smooth and the platform is very easy to use.', rating: 5 },
   { name: 'Anjali Das', role: 'Tourist from Guwahati', text: 'Explored Dibrugarh on a rented bike. The prices are unbeatable and the process was completely online. Loved it!', rating: 5 },
 ]
 

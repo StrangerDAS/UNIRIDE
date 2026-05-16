@@ -54,7 +54,7 @@ export default function Navbar() {
               <RiMotorbikeLine className="text-white text-xl" />
             </div>
             <span className="text-xl font-bold tracking-tight">
-              uniride<span className="text-brand">.</span>
+              urent<span className="text-brand">.</span>
             </span>
           </Link>
 

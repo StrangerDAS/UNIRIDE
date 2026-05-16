@@ -29,7 +29,7 @@ export function useAuth() {
     const res = await authAPI.signup(data)
     const { user: u, token: t } = res.data
     setAuth(u, t)
-    toast.success('Account created! Welcome to UNIRIDE 🏍️')
+    toast.success('Account created! Welcome to URENT 🏍️')
     return u
   }, [setAuth])
 

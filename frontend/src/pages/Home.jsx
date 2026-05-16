@@ -71,13 +71,13 @@ const testimonials = [
   {
     name: 'Priya Borah',
     role: 'College Student',
-    text: 'Rented a scooty for a week during my internship. Super affordable and the owner was very helpful. Will use UNIRIDE again!',
+    text: 'Rented a scooty for a week during my internship. Super affordable and the owner was very helpful. Will use URENT again!',
     rating: 5,
   },
   {
     name: 'Rahul Gogoi',
     role: 'Delivery Partner',
-    text: 'Listed my bike on UNIRIDE and I make extra ₹8,000 every month. The process was smooth and the platform is very easy to use.',
+    text: 'Listed my bike on URENT and I make extra ₹8,000 every month. The process was smooth and the platform is very easy to use.',
     rating: 5,
   },
   {
@@ -260,7 +260,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-14"
           >
-            <h2 className="section-title">How UNIRIDE works</h2>
+            <h2 className="section-title">How URENT works</h2>
             <p className="section-sub">Ride in three simple steps</p>
           </motion.div>
 
@@ -316,7 +316,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-14"
           >
-            <h2 className="section-title">Why choose UNIRIDE?</h2>
+            <h2 className="section-title">Why choose URENT?</h2>
             <p className="section-sub">Built for trust, speed, and local convenience</p>
           </motion.div>
 
@@ -401,7 +401,7 @@ export default function Home() {
               </h2>
               <p className="text-white/50 text-lg max-w-xl">
                 Put your idle vehicle to work. Earn up to ₹15,000/month by listing it
-                on UNIRIDE. Free to list, no commission until you earn.
+                on URENT. Free to list, no commission until you earn.
               </p>
             </div>
             <div className="mt-6 md:mt-0 shrink-0">

@@ -96,7 +96,7 @@ export default function AdminPanel() {
       <div className="container-main py-10">
         <div className="mb-10">
           <h1 className="text-2xl md:text-3xl font-bold">Admin Panel</h1>
-          <p className="text-white/40 text-sm mt-1">Manage the UNIRIDE platform</p>
+          <p className="text-white/40 text-sm mt-1">Manage the URENT platform</p>
         </div>
 
         {/* Tabs */}

@@ -35,7 +35,7 @@ const AGREEMENT_TEXT = [
   { title: '1. Vehicle Condition & Verification', text: 'User must inspect vehicle and record photos/videos at pickup.' },
   { title: '2. Responsibility During Rental', text: 'User is fully responsible for vehicle during rental period.' },
   { title: '3. Damage Policy', text: 'Without proof, user is liable for damages.' },
-  { title: '4. Platform Liability', text: 'UNIRIDE is only a connecting platform and not responsible for damage, theft, or disputes.' },
+  { title: '4. Platform Liability', text: 'URENT is only a connecting platform and not responsible for damage, theft, or disputes.' },
   { title: '5. Owner Protection', text: 'Owner is not responsible for misuse or accidents.' },
   { title: '6. Compliance', text: 'User must upload valid documents and follow traffic laws.' },
   { title: '7. Acceptance', text: 'User agrees to all terms and accepts full responsibility.' },
@@ -226,7 +226,7 @@ export default function BookingFlow() {
                   User Responsibility & Rental Agreement
                 </h3>
                 <p className="text-white/50 text-sm mb-5 text-center">
-                  By proceeding with the booking on the UNIRIDE platform, you agree to the following:
+                  By proceeding with the booking on the URENT platform, you agree to the following:
                 </p>
                 <div className="space-y-4">
                   {AGREEMENT_TEXT.map((clause) => (

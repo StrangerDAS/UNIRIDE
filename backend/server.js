@@ -1,5 +1,5 @@
 /**
- * UNIRIDE — Mock API Server
+ * URENT — Mock API Server
  *
  * A fully functional mock Express server that provides realistic API responses
  * for the frontend to work without a real MongoDB backend.
@@ -22,10 +22,10 @@ app.use(express.urlencoded({ extended: true }))
 
 // ── In-Memory Data Store ───────────────────────────────────
 const users = [
-  { _id: 'u1', name: 'Admin', email: 'admin@uniride.in', phone: '9876543210', role: 'admin', isRider: true, isOwner: true, otpVerified: true, createdAt: '2024-01-15' },
-  { _id: 'u2', name: 'Rahul Gogoi', email: 'rahul@uniride.in', phone: '9876543211', role: 'owner', isRider: true, isOwner: true, otpVerified: true, createdAt: '2024-02-15' },
-  { _id: 'u3', name: 'Priya Borah', email: 'priya@uniride.in', phone: '9876543212', role: 'user', isRider: true, isOwner: false, otpVerified: true, createdAt: '2024-03-01' },
-  { _id: 'u4', name: 'Anjali Das', email: 'anjali@uniride.in', phone: '9876543213', role: 'user', isRider: true, isOwner: false, otpVerified: true, createdAt: '2024-04-10' },
+  { _id: 'u1', name: 'Admin', email: 'admin@urent.in', phone: '9876543210', role: 'admin', isRider: true, isOwner: true, otpVerified: true, createdAt: '2024-01-15' },
+  { _id: 'u2', name: 'Rahul Gogoi', email: 'rahul@urent.in', phone: '9876543211', role: 'owner', isRider: true, isOwner: true, otpVerified: true, createdAt: '2024-02-15' },
+  { _id: 'u3', name: 'Priya Borah', email: 'priya@urent.in', phone: '9876543212', role: 'user', isRider: true, isOwner: false, otpVerified: true, createdAt: '2024-03-01' },
+  { _id: 'u4', name: 'Anjali Das', email: 'anjali@urent.in', phone: '9876543213', role: 'user', isRider: true, isOwner: false, otpVerified: true, createdAt: '2024-04-10' },
 ]
 
 // ── OTP Store (in-memory, expires after 5 min) ────────────
@@ -578,12 +578,12 @@ app.listen(PORT, () => {
   console.log('')
   console.log('  ╔══════════════════════════════════════════════╗')
   console.log('  ║                                              ║')
-  console.log(`  ║   🏍️  UNIRIDE API Server → http://localhost:${PORT}  ║`)
+  console.log(`  ║   🏍️  URENT API Server → http://localhost:${PORT}  ║`)
   console.log('  ║                                              ║')
   console.log('  ║   Test accounts:                             ║')
-  console.log('  ║   admin@uniride.in  / admin123  (Admin)        ║')
-  console.log('  ║   rahul@uniride.in  / owner123  (Owner)        ║')
-  console.log('  ║   priya@uniride.in  / user1234  (User)         ║')
+  console.log('  ║   admin@urent.in  / admin123  (Admin)        ║')
+  console.log('  ║   rahul@urent.in  / owner123  (Owner)        ║')
+  console.log('  ║   priya@urent.in  / user1234  (User)         ║')
   console.log('  ║                                              ║')
   console.log('  ╚══════════════════════════════════════════════╝')
   console.log('')
